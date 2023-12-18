@@ -243,7 +243,7 @@ HIGHLIGHTS
 
 #highlights:after,
 #highlights:before {
-  background: url('assets/wave.svg');
+  background: url ("assets/wave.svg");
   content: "";
   position: absolute;
   width: 101vw;
@@ -424,20 +424,19 @@ footer {
 }
 /*SMALL PHONES, LARGE SMARTPHONES*/
 @media (max-width: 550px) {
-    .btn__menu {
-        display: block;
-      }
-  
-      .nav__links {
+  .btn__menu {
+    display: block;
+  }
+
+  .nav__links {
     display: none;
   }
 
   .highlight {
     width: 100%;
   }
-  
-.highlight:not(:last-child) {
-    margin-bottom: 24px;
-}
 
+  .highlight:not(:last-child) {
+    margin-bottom: 24px;
+  }
 }
